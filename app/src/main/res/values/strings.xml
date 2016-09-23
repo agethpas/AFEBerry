@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SimpleNotebook</string>
+
+    <!-- Main Menu Title-->
+    <string name="action_save_note">Save</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Edit Menu Title-->
+    <string name="action_delete_note">Save</string>
+
+    <!-- Fragement Title String-->
+    <string name="viewFragmentTitle">View Note</string>
+    <string name="editFragmentTitle">Edit Note</string>
+    <string name="create_fragment_title">Create Note</string>
+    <string name="title_preferences">Application Settings</string>
+
+    <!--Main List Long Click Context Menu -->
+    <string name="delete_menu">Delete</string>
+
+    <!--  Fragment Widget String-->
+    <string name="save_note_button">Save Note</string>
+</resources>
