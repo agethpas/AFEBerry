@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             mainLayout.setBackgroundColor(Color.parseColor("#3c3f41"));
 
         }
-        String notebookTitle = sharedPreferences.getString("title", "Notebook");
+        String notebookTitle = sharedPreferences.getString("title", "AFEBerry");
         setTitle(notebookTitle);
     }
 }

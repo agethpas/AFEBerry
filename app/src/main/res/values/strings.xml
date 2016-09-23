@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SimpleNotebook</string>
+    <string name="app_name">AFEBerry</string>
 
     <!-- Main Menu Title-->
     <string name="action_save_note">Save</string>
@@ -19,4 +19,10 @@
 
     <!--  Fragment Widget String-->
     <string name="save_note_button">Save Note</string>
+
+    <!--  Preferences String-->
+    <string name="name_app">AFEBerry</string>
+
+
+
 </resources>

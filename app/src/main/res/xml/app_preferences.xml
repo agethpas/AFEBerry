@@ -7,7 +7,7 @@
             android:title="Notebook Title"
             android:summary="The title that will be used on the main action bar"
             android:key="title"
-            android:defaultValue="SimpleNotebook"/>
+            android:defaultValue="@string/name_app"/>
 
     </PreferenceCategory>
     <PreferenceCategory
