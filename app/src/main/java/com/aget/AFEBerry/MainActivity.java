@@ -38,9 +38,15 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+                startActivity(intent);
+
+                /*
                 Intent i = new Intent(MainActivity.this,NoteDetailActivity.class);
                 i.putExtra(MainActivity.NOTE_FRAGMENT_TO_LOAD_EXTRA, FragmentToLaunch.CREATE);
                 startActivity(i);
+                */
 
             }
         });
@@ -80,7 +86,8 @@ public class MainActivity extends AppCompatActivity {
             mainLayout.setBackgroundColor(Color.parseColor("#3c3f41"));
 
         }
-        String notebookTitle = sharedPreferences.getString("title", "AFEBerry");
+       /* String notebookTitle = sharedPreferences.getString("title", "AFEBerry");
         setTitle(notebookTitle);
+        */
     }
 }

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--
     <PreferenceCategory
         android:title="General">
 
@@ -10,9 +13,10 @@
             android:defaultValue="@string/name_app"/>
 
     </PreferenceCategory>
+    -->
+
     <PreferenceCategory
         android:title="Color">
-
             <CheckBoxPreference
                 android:title="Dark Background"
                 android:summary="Activate Darkmode?"
