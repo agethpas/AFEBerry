@@ -47,6 +47,20 @@ public class NotebookDbAdapter {
         return this;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public void close(){
         notebookDbHelper.close();
     }

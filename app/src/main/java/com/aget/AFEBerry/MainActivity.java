@@ -2,6 +2,7 @@ package com.aget.AFEBerry;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.SQLException;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -12,6 +13,8 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
+
+import java.io.IOException;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -59,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
         menu.clear();
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
+
+
     }
 
     @Override
@@ -75,6 +80,10 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
+
+
+
+
         return super.onOptionsItemSelected(item);
     }
     //preferences
@@ -90,4 +99,9 @@ public class MainActivity extends AppCompatActivity {
         setTitle(notebookTitle);
         */
     }
+
+
+
+
+
 }
